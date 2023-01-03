@@ -111,3 +111,138 @@
     font-size: 2rem;
     padding: 0.2rem;
   }
+
+ #contact ul {
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+  #about p {
+    padding-left: 2rem;
+    text-align: left;
+  }
+  
+  .about-me-list {
+    display: inline;
+    margin-left: 1rem;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  #work-tiles {
+    gap: 2rem;
+  }
+  
+  #skills {
+    color: var(--color-text);
+    width: 100%;
+  }
+  
+  section {
+    background-color: var(--bg-color);
+    width: 100%;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  .col {
+    width: 100%;
+  }
+  
+  .section-name {
+    color: var(--color-text);
+  }
+  
+  section h2 {
+    border-bottom: var(--color-theme) solid 5px;
+    padding: 1rem;
+    border-top: var(--color-theme) solid 1px;
+    margin-top: 0.5rem;
+    background-color: rgb(78, 5, 5);
+  }
+  
+  hr {
+    color: var(--color-theme);
+  }
+  
+  footer {
+    background-color: black;
+    padding: 2rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fefefe !important;
+  }
+  
+  a:hover {
+    color: #ffffff !important;
+    text-shadow: #fff 0px 0px 5px, #fff 0px 0px 10px, #fff 0px 0px 15px,
+      #69eebb 0px 0px 20px, #69eebb 0px 0px 30px, #f5f3f4 0px 0px 40px,
+      #69eebb 0px 0px 50px, #69eebb 0px 0px 75px;
+  }
+  
+  /* Boot strap  modified classes */
+  
+  .container-fluid {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  .card {
+    margin-top: 1rem;
+    padding: 0;
+    color: black;
+  }
+  
+  .card-body {
+    color: var(--color-theme);
+    background-color: var(--bg-color);
+    text-align: left;
+  }
+  /* end of bootstrap classes  */
+  
+  /* Media queries  */
+  
+  @media (min-width: 768px) {
+  
+   
+  
+    section h2 {
+      border: none;
+      background-color: var(--bg-color);
+    }
+  
+    .border1 {
+      border-right: 5px solid var(--color-theme);
+    }
+  
+    .nav {
+      flex-direction: row;
+      padding: 2rem;
+    }
+  
+    .section-name {
+      text-align: center;
+    }
+  
+    .about-me-list {
+      display: block;
+      margin-left: 1rem;
+      text-align: center;
+    }
+  
+    #contact ul {
+      display: flex;
+      flex-direction: row;
+    }
+  
+  }
+  .footer {
+    color: var(--color-theme);
+  }
