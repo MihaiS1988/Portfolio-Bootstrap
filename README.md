@@ -14,5 +14,5 @@ Open the website and click on whatever project you would like to see
 * Website link - https://mihais1988.github.io/Portfolio-Bootstrap/
 * GitHub Repository - https://github.com/MihaiS1988/Portfolio-Bootstrap
 
-website preview
+## Portfolio preview
 ![image](https://user-images.githubusercontent.com/117821906/210452108-97acc854-871a-4fc2-af43-bccfae690f42.png)
