@@ -32,3 +32,25 @@
     background-color: var(--btn-bg-custom);
   }
   
+.logo {
+    color: var(--color-theme);
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 204, 210);
+  }
+  
+  .hero {
+    background-image: url(../images/02-hero-bg.jpg);
+    background-size: cover;
+    height: 150px;
+  }
+  .bootstrap-portfolio {
+    text-align: right;
+    color: var(--color-theme);
+    padding: 1rem;
+    font-weight: bolder;
+  }
